@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="main">
+
+        <input type="text" name="result" id="resultInp" placeholder="Enter your rollno">
+        <button type="submit" onclick="result()" id="btn">Search</button>
+
+    </div>
+    <div class="resultForm">
+        
+            <div class="name"></div>
+            <div class="rollno"></div>
+            <div class="gpa"></div>
+            <div class="status"></div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
